@@ -1,13 +1,11 @@
 ---
 layout: default
-title: Robert Stein
+title: Selected Research
 ---
-<div class="blurb">
-	<h1>Research</h1>
-	<p>
-		Selected Research:
-	</p>
-		<ul>
-			<li><b><a href="https://arxiv.org/abs/1908.08547"> Search for Neutrinos from Populations of Optical Transients</a></li>
-		</ul>
-</div><!-- /.blurb -->
+	<h1>{{ page.title }}</h1>
+	<ul class="posts">
+
+	  {% for post in site.posts %}
+	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  {% endfor %}
+	</ul>
