@@ -61,5 +61,10 @@ post-container {
     font-size: 200%
 }
 
-
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
