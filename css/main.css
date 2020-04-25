@@ -49,6 +49,7 @@ post-container {
 }
 .post-thumb {
     float: left
+    vertical-align: middle;
 }
 
 .post-thumb img {
