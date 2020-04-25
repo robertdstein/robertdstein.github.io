@@ -50,10 +50,10 @@ post-container {
 .post-thumb {
     float: left
 }
+
 .post-thumb img {
     display: block
-    margin-top: auto;
-    margin-bottom: auto;
+    vertical-align: middle;
 }
 
 .post-content {
