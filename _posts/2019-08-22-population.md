@@ -3,7 +3,6 @@ layout: post
 title: "Search for Neutrinos from Populations of Optical Transients"
 date: 2019-08-22
 arxiv: "https://arxiv.org/abs/1908.08547"
-tags = [neutrino_astronomy, multimessenger_astronomy, icecube]
 ---
 
 With the IceCube Neutrino Observatory, we searched for correlations between neutrinos and tidal disruption events (TDEs).
