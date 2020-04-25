@@ -49,12 +49,10 @@ post-container {
 }
 .post-thumb {
     float: left
-    vertical-align: middle;
 }
 
 .post-thumb img {
     display: block
-    vertical-align: middle;
 }
 
 .post-content {
