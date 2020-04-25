@@ -52,7 +52,10 @@ post-container {
 }
 .post-thumb img {
     display: block
+    margin-top: auto;
+    margin-bottom: auto;
 }
+
 .post-content {
     margin-left: 210px
 }
