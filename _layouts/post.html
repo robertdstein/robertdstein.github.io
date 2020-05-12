@@ -1,10 +1,12 @@
 ---
 layout: default
 ---
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
 <h1>{{ page.title }}</h1>
 <p class="meta">{{ page.date | date_to_string }}</p>
 <p class="meta">{{page.author}}</p>
-<p class="meta"><a href="{{page.arxiv}}">View on Arxiv</a></p>
+<p class="meta"><a href="https://arxiv.org/abs/{{page.arxiv}}">View on Arxiv</a></p>
+<div class='altmetric-embed' data-badge-type='donut' data-arxiv-id='{{page.arxiv}}'></div>
 <div class="post">
   {{ content }}
 </div>
