@@ -10,7 +10,8 @@ title: Media
 	</div>
 	<ul class="posts">
 	  {% for post in site.categories.mm %}
-		<li><span>{{ post.date | date_to_string }}</span> » {{ post.title }}</li>
-		<li>{{ post.content }}</li>
+		<li><span>{{ post.date | date_to_string }}</span> » {{ post.title }}
+			{{ post.content }}
+		</li>
 	  {% endfor %}
 	</ul>
