@@ -8,10 +8,7 @@ title: Media
 			A selection of posters and videos:
 		</p>
 	</div>
-	<ul class="posts">
-	  {% for post in site.categories.mm %}
-		<li><span>{{ post.date | date_to_string }}</span> » {{ post.title }}
-			{{ post.content }}
-		</li>
-	  {% endfor %}
-	</ul>
+	{% for post in site.categories.mm %}
+	<span>{{ post.date | date_to_string }}</span> » {{ post.title }}
+		{{ post.content }}
+	{% endfor %}
