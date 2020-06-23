@@ -18,7 +18,7 @@ title: Publications
 		</p>
 	</div>
 	<ul class="posts">
-	  {% for post in site.posts %}
+	  {% for post in site.categories.research %}
 	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <span><a class='altmetric-embed' data-badge-type='donut' data-arxiv-id='{{post.arxiv}}' data-badge-popover='right'></a></span></li>
 	  {% endfor %}
 	</ul>
