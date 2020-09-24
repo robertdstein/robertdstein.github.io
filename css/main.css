@@ -84,4 +84,5 @@ post-container {
 /* Darker background on mouse-over */
 .btn:hover {
   background-color: #737373;
+  color: white;
 }
