@@ -6,7 +6,12 @@ layout: default
 <p class="meta">{{ page.date | date_to_string }}</p>
 <p class="meta">{{page.author}}</p>
 <p class="meta"><a href="https://arxiv.org/abs/{{page.arxiv}}">View on Arxiv</a></p>
+{% if {{page.doi}} == null or {{page.doi}} == '' %}
 <div data-badge-type='medium-donut' class='altmetric-embed' data-badge-details='right' data-arxiv-id='{{page.arxiv}}'></div>
+{% else %}
+<p class="meta"><a href="https://dx.doi.org/{{page.doi}}">View Published Version</a></p>
+<div data-badge-type='medium-donut' class='altmetric-embed' data-badge-details='right' data-doi='{{page.doi}}'></div>
+{% endif %}
 <div class="post">
   {{ content }}
 </div>
