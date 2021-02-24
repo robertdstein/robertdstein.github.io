@@ -21,10 +21,10 @@ title: Publications
 	  {% for post in site.categories.research %}
 	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
 			<span>
-				{% if {{page.doi}} == null or {{page.doi}} == '' %}
+				{% if {{post.doi}} == null or {{post.doi}} == '' %}
 					<a class='altmetric-embed' data-badge-type='donut' data-arxiv-id='{{post.arxiv}}' data-badge-popover='right'></a>
 				{% else %}
-					<a class='altmetric-embed' data-badge-type='donut' data-doi='{{page.doi}}' data-badge-popover='right'></a>
+					<a class='altmetric-embed' data-badge-type='donut' data-doi='{{post.doi}}' data-badge-popover='right'></a>
 				{% endif %}
 			</span></li>
 	  {% endfor %}
