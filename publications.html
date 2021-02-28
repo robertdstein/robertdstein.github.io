@@ -22,9 +22,9 @@ title: Publications
 	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
 			<span>
 				{% if {{post.doi}} == null or {{post.doi}} == '' %}
-					<a data-badge-type="2" data-arxiv-id='{{post.arxiv}}' class="altmetric-embed"></a>
+					<a data-badge-type="2" data-arxiv-id='{{post.arxiv}}' class="altmetric-embed" data-badge-popover="right"></a>
 				{% else %}
-					<a data-badge-type="2" data-doi='{{post.doi}}' class="altmetric-embed"></a>
+					<a data-badge-type="2" data-doi='{{post.doi}}' class="altmetric-embed" data-badge-popover="right"></a>
 					<a class="__dimensions_badge_embed__" data-doi='{{post.doi}}' data-style="small_rectangle"></a><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 				{% endif %}
 			</span></li>
