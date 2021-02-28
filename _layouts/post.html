@@ -11,6 +11,7 @@ layout: default
 {% else %}
 <p class="meta"><a href="https://dx.doi.org/{{page.doi}}">View Published Version</a></p>
 <div data-badge-type='medium-donut' class='altmetric-embed' data-badge-details='right' data-doi='{{page.doi}}'></div>
+<span class="__dimensions_badge_embed__" data-doi='{{page.doi}}'></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 {% endif %}
 <div class="post">
   {{ content }}
