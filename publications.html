@@ -19,7 +19,7 @@ title: Publications
 	</div>
 	<ul class="posts">
 	  {% for post in site.categories.research %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <br />
 			<span>
 				{% if {{post.doi}} == null or {{post.doi}} == '' %}
 					<a data-badge-type="2" data-arxiv-id='{{post.arxiv}}' class="altmetric-embed" data-badge-popover="right"></a>
