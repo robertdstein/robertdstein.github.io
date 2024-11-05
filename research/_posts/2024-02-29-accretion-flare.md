@@ -2,7 +2,7 @@
 layout: post
 title: "Establishing Accretion Flares from Supermassive Black Holes as a Source of High-Energy Neutrinos "
 author: "Sjoert van Velzen, <b>Robert Stein</b> et al."
-date: 2023-02-29
+date: 2024-02-29
 arxiv: "2111.09391"
 doi: "10.3847/10.1093/mnras/stae610"
 ---
