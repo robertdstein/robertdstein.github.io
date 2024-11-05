@@ -4,7 +4,7 @@ title: "Establishing Accretion Flares from Supermassive Black Holes as a Source 
 author: "Sjoert van Velzen, <b>Robert Stein</b> et al."
 date: 2024-02-29
 arxiv: "2111.09391"
-doi: "10.3847/10.1093/mnras/stae610"
+doi: "10.1093/mnras/stae610"
 ---
 [Today in MNRAS](https://doi.org/10.1093/mnras/stae610), 
 we published a paper studying neutrino emission from supermassive black holes.
