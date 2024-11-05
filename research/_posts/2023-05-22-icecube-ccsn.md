@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Candidate Tidal Disruption Event AT2019fdr Coincident with a High-Energy Neutrino"
+title: "Constraining High-Energy Neutrino Emission from Supernovae with IceCube"
 author: "IceCube Collaboration (<b>Robert Stein</b> as one of three credited coauthors)"
 date: 2023-05-22
 arxiv: "2303.03316"
