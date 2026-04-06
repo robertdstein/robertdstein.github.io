@@ -64,6 +64,10 @@ post-container {
     font-size: 200%
 }
 
+figcaption{
+    text-align: center;
+}
+
 .center {
   display: block;
   margin-left: auto;
